@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bokor&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Eater&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Jaro:opsz@6..72&family=Oswald:wght@200..700&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+nav li, nav a {
+    color: navy;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Bokor", "Pacifico", sans-serif;
+    margin-top: 10px; 
+    margin: 40px 0 10px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0.83em 0 0 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif, serif;
+}
+
+ul {
+    margin: 5px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+header {
+    font-size: 100px;
+    font-family: "Jaro", sans-serif;
+    color: black;
+    text-shadow: 10px 10px 3px white;
+}
+
+footer {
+    background: url("https://img.freepik.com/vecteurs-libre/abstrait-motif-geometrique-gris_1035-18654.jpg") center/cover, blue;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bienvenue {
+    background-image: url("https://i.pinimg.com/originals/ef/64/ae/ef64aefbfc22c3a6a29cbe7891879544.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex; 
+}
+
+#slogan {
+    display: block;
+    font-size: 30px;
+    font-family: "Bokor", sans-serif;
+    color: white;
+    text-shadow: 20px 20px 60px black;
+    font-weight: bolder;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#top {
+    font-size: 25px;
+    text-align: center;
+    font-family: "EB-Garamond";
+    margin-bottom: 40px;
+}
+
+#emir {
+    background-image: url("https://live.staticflickr.com/65535/52320343634_e570f4ec9b_b.jpg");
+    grid-row: 1 / 3; /* L'élément va de la ligne 1 à la ligne 3 */
+    background-position: center;
+    
+}
+
+#bouamama {
+    background-image: url("https://pbs.twimg.com/media/FZKmPB7WIAAeNOI.jpg");
+    grid-column: 2 / 4;
+}
+
+#boumaza {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Portrait_du_Cheikh_Boumaaza_en_1847.jpg/640px-Portrait_du_Cheikh_Boumaaza_en_1847.jpg");
+}
+
+#badis {
+    background-image: url("https://tanwir.id/wp-content/uploads/2024/11/%D8%A7%D9%84%D8%A5%D8%B5%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A-%D9%81%D9%8A-%D9%85%D9%88%D8%A7%D9%82%D9%81-%D8%A7%D8%A8%D9%86-%D8%A8%D8%A7%D8%AF%D9%8A%D8%B3-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%81-%D9%88%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D8%B1%D9%82.jpg");
+    background-position: center;
+}
+    
+#flexbox-ville {
+    display: grid;
+    font-family: "Bokor", "Pacifico", sans-serif; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; /* Vous pouvez ajuster cela selon vos besoins */
+    gap: 20px;
+}
+
+#voir {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Arial, sans-serif;
+    color: navy;
+    transition: all 0.4s;
+    gap: 0s;
+}
+
+#voir:visited {
+    font-weight: bold;
+}
+
+#voir:hover {
+    gap: 10px;
+}
+
+#flexbox-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ville {
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    min-height: 400px;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 40px;
+    color: azure;
+    text-shadow: 50px 50px 80px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+.ville:hover {
+    border: 5px solid #5FC2BA;
+    background-color: rgba(0, 0, 0, 0.4); /* Ajout d'un fond sombre au survol */
+}
+
+.contenu {
+    padding: 10px;
+}
+
+.conteneur {
+    margin: 0 auto;
+}
+
+#phed {
+    background-position: center;
+}
+
+.abdelqader {
+    background-image: url("https://comprendrelislam.fr/wp-content/uploads/2021/10/ZianiSerment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#hed {
+    font-size: 60px;
+    font-family: "Jaro", sans-serif;
+    color: black;
+    text-shadow: 10px 10px 3px white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#califat {
+    font-family: "Jaro", sans-serif;
+}
+
+.titr {
+    font-family: "Jaro", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#contexte {
+    font-family: "Jaro", sans-serif;
+    margin: 0 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.conten {
+    margin: 0 auto;
+}
+
+.contenr {
+    margin: 0 auto;
+    height: 11px;
+}
+
+@media all and (max-width: 1350px) {
+    .conteneur {
+        width: 800px;
+    }
+    #flexbox-ville {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #bouamama {
+        background-position: center;
+    }
+    #boumaza {
+        grid-column: 1 / 3;
+        object-position: center top; 
+        object-fit: cover;
+    }
+    #emir {
+        grid-column: auto;
+    }
+
+    #bouamama {
+        grid-column: auto;
+    }
+    #badis {
+        grid-column : auto;
+    }
+} 
+
+@media all and (max-width: 800px) {
+    .conteneur {
+        width: 500px;
+    }
+    #flexbox-ville {
+        grid-template-columns: 1fr;
+    }
+    #emir {
+        grid-row: auto;
+    }
+    #boumaza {
+        grid-column: auto;
+    }
+  
+    #flexbox-foot {
+        flex-direction: column;
+    }
+    #logo-foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+
+@media all and (max-width: 570px) {
+    .conteneur {
+        width: 100%;
+    }
+    #bienvenue {
+        padding: 25px;
+    }
+}
